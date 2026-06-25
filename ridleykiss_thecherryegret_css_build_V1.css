@@ -67,3 +67,34 @@ a {
 
 /* ------------------------------------------ */
 
+/* Phone Optimization */
+
+@media (max-width: 600px) {
+    .cgrt-file-title {
+        font-size: 45%
+    }
+
+    .file-image{
+        height: 25%;
+        width: 25%;
+        padding-top: 30px;
+        padding-left: 23px;
+
+    }
+}
+
+/* Ipad Optimization */
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .cgrt-file-title {
+        font-size: 55%
+    }
+
+    .file-image{
+        height: 15%;
+        width: 15%;
+        padding-top: 30px;
+        padding-left: 23px;
+
+    }
+}
