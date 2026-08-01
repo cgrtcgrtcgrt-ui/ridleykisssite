@@ -73,6 +73,24 @@ body {
 }
 
 /* ------------------------------------------ */
+/* Social Media Links */
+.links {
+    display: flex;
+    gap: 20px;           /* Space between icons */
+    justify-content: center; /* Optional: center them */
+    align-items: center;
+}
+
+.insta-icon,
+.sc-icon,
+.sp-icon,
+.yt-icon {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+}
+
+/* ------------------------------------------ */
 
 /* Line Break Under Latest Release */
 .line-break2 {
@@ -297,6 +315,22 @@ body {
 /* Phone Optimization */
 
 @media (max-width: 600px) {
+
+    .ridley-kiss-mainsite-logo {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .insta-icon,
+    .sc-icon,
+    .sp-icon,
+    .yt-icon {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
     
     body {
         overflow-x: hidden;
@@ -358,6 +392,22 @@ body {
 /* Ipad Optimization */
 
 @media (min-width: 600px) and (max-width: 1200px) {
+
+    .ridley-kiss-mainsite-logo {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .insta-icon,
+    .sc-icon,
+    .sp-icon,
+    .yt-icon {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
     
     body {
         overflow-x: hidden;
